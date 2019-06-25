@@ -1,9 +1,10 @@
+let oss = 'https://jcxcx.sunkoda.com/upload';
 const data={
     // 阊门
     '1':{
         title:'/images/cm_tit.png',
         des:'&emsp;&emsp;阊门是苏州城八门之一，位于城西北。传说天门中有阊阖，“阊”是通天气之意，表示吴国将得到天神保佑，日臻强盛。从清代乾隆年间的《姑苏繁华图》中可以看出，阊门内城门临阊门大街（今西中市），上有城楼，外城门靠吊桥，瓮城为长方形，瓮城内另有套城，并还有南、北两个童梓门。南童梓门通今南新路，北童梓门通北码头。',
-        coverImg:'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/1/%E9%98%8A%E9%97%A8.jpg',
+        coverImg:oss+'/content/1/1.jpg',
         des1:'&emsp;&emsp;公元前506年，这里是孙武、伍子胥等率吴军伐楚的出发地和凯旋地。从此阊门亦号破楚门。当年吴国的大军出兵伐楚，都是浩浩荡荡从这里出发，最后凯旋而归，破楚门被老百姓亲切地叫成了胜利之门，有点像拿破仑的凯旋门。不过，看似固若金汤的城门，却敌不过一纸禁令。南宋末年，蒙古人的铁蹄踏上了中原，元军下令拆毁城墙并永禁修复，一旦发生暴动，就能立即入城镇压。城墙拆了，城门毁了，在之后的几十年里，苏州“一马平川”。直到1351年，才开始重建，张士诚据苏称王，不但加固城墙挖深城壕，还在各城门瓮城内增设月城，用来藏兵守卫。这就是《姑苏繁华图》里那个老阊门了。1860年5月，太平天国忠王李秀成攻打苏州。当时的江苏巡抚徐有壬和总兵马德昭出了个馊主意，接连颁布三道命令，烧毁城外商业区，以巩固城防：“首令民装裹，次令迁徙，三令纵火”。\n &emsp;&emsp;曾经繁华盖世的阊门外，直到枫桥寒山寺，转眼化为灰烬，数十万苏州市民逃往上海租界。阊门对于他们，仅仅只剩了一个家的记忆。洪武赶散中的老阊门人来到苏北两淮地区后，继续发扬劳苦奋斗的家风家训，为当地建设立下了汗马功劳；而留下的老阊门，则继续着它的辉煌。\n &emsp;&emsp;明清时期，包括城外呈放射状的南浩街、上塘街、山塘街, 以及城内的阊门大街（今西中市），与这些街道平行, 又有外城河、内城河、上塘河、山塘河分别从五个方向汇聚于此。乾隆年间的名画《姑苏繁华图》将盛极一时的阊门至枫桥的十里长街、万商云集描绘的淋漓尽致。据记载，当时阊门内外各种店铺多达数万家, 各行各业应有尽有, 各省会馆纷列其间。清朝的孙嘉淦在《南游记》里这样描述阊门：“居货山积, 行人流水, 列肆招牌, 灿若云锦”。',
         imgs:[],
         des2: []
@@ -13,16 +14,16 @@ const data={
     '2':{
         title:'/images/bmt_tit.png',
         des:'&emsp;&emsp;北码头位于阊门外吊桥以北，南接北童梓门，北至四摆渡。清代乾隆五十六年（1791年）秦仪所绘的《虎丘山塘图》开头部分清楚反映当时阊门外运河边北码头停泊了许多民船和官船的景象，官船上的阁楼、飘扬的彩旗，民船上的船篷，都清楚可见。《姑苏繁华图》上也反映了北码头的昔日繁华。解放前很多来自四乡八镇的农船停泊在北码头，从乡下装的农产品和烟草、木材、砖头在这里转运，同时开往东桥、浒关、枫桥、镇湖、光福等地的航船也在北码头出发。',
-        coverImg:'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/2/%E5%8C%97%E7%A0%81%E5%A4%B41.jpg',
+        coverImg:oss+'/content/2/1.jpg',
         des1:'&emsp;&emsp;如今在北码头两侧林立着别墅、小楼、公馆、店铺等各类民国建筑。这里除了成为集城墙历史景观和护城河滨水景观于一体的特色商业区，同时也是环古城风貌带上的一个重点观光区。',
-        imgs: ['https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/2/%E5%8C%97%E7%A0%81%E5%A4%B42.jpg','https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/2/%E5%8C%97%E7%A0%81%E5%A4%B43.jpg'],
+        imgs: [oss+'/content/2/2.jpg',oss+'/content/2/3.jpg'],
         des2:[]
     },
     // 曹沧洲
     '3': {
         title: '/images/ccz_tit.png',
         des: '&emsp;&emsp;曹沧州故居位于阊门西街59号。正路东向五进，门屋、轿厅、大厅各三间。大厅面阔11.5米，进深六檩12米，扁作梁，前有双翻轩。厅后为走马式堂楼五间带两厢。正路北有房屋三组南向。现正路后部堂楼、上房及北路诸屋散为民居，独存大厅。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/3/%E6%9B%B9%E6%B2%A7%E6%B4%B2%E6%95%85%E5%B1%85.jpg',
+        coverImg: oss+'/content/3/1.jpg',
         des1: '',
         imgs: [],
         des2:[
@@ -36,11 +37,11 @@ const data={
     '4': {
         title: '/images/hss_tit.png',
         des: '&emsp;&emsp;寒山寺位于苏州市姑苏区，始建于南朝萧梁代天监年间（502—519年），初名“妙利普明塔院”。寒山寺占地面积约1.3万平方米，建筑面积三千四百余平方米。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/4/%E5%AF%92%E5%B1%B1%E5%AF%BA1.jpg',
+        coverImg: oss+'/content/4/1.jpg',
         des1: '&emsp;&emsp;寒山寺属于禅宗中的临济宗。唐代贞观年间，当时的名僧寒山、希迁两位高僧创建寒山寺。1000多年内寒山寺先后5次遭到火毁（一说是7次），最后一次重建是清代光绪年间。历史上寒山寺曾是中国十大名寺之一，寺内古迹甚多，有张继诗的石刻碑文，寒山、拾得的石刻像，文徵明、唐寅所书碑文残片等。',
-        imgs: ['https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/4/%E5%AF%92%E5%B1%B1%E5%AF%BA2.jpg','https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/4/%E5%AF%92%E5%B1%B1%E5%AF%BA3.jpg',
-        'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/4/%E5%AF%92%E5%B1%B1%E5%AF%BA4.jpg',
-        'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/4/%E5%AF%92%E5%B1%B1%E5%AF%BA5.jpg'
+        imgs: [oss+'/content/4/2.jpg',oss+'/content/4/3.jpg',
+        oss+'/content/4/4.jpg',
+        oss+'/content/4/5.jpg'
         ],
         des2: [
             {
@@ -61,9 +62,9 @@ const data={
     '5': {
         title: '/images/lry_tit.png',
         des: '&emsp;&emsp;史载苏州有文武状元50位，在苏州名人馆里的状元名单有47位，其中陆氏一门两状元,陆肯堂、陆润庠。而陆肯堂陆润庠两状元的故居就在阊门内下塘街，苏州旅游景点统一的蓝色控制保护建筑。故居坐北朝南三路，中路六进，末进楼厅面阔五间17.5米，进深9.85米，扁作梁浅雕，落地罩精细。大厅、花厅等均为清代建筑。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/5/%E9%99%86%E6%B6%A6%E5%BA%A0.jpg',
+        coverImg: oss+'/content/5/1.jpg',
         des1: '',
-        imgs: ['https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/5/%E9%99%86%E6%B6%A6%E5%BA%A0%E6%95%85%E5%B1%851.jpg'],
+        imgs: [oss+'/content/5/2.jpg'],
         des2: [
             {
                 title:'“办厂状元”—陆润庠。',
@@ -75,7 +76,7 @@ const data={
     '6': {
         title: '/images/nhj_tit.png',
         des: '&emsp;&emsp;原名南濠街，因阊门以南护城河称为南濠而得名，后讹“濠”为“浩”。民国《吴县志》称南濠大街，《苏州城厢图》、《吴县图》、《苏州图》均标南濠街。苏州明代文学家都穆、杨循吉曾家居于南濠街。元宵灯节，阊门一带极为热门，南濠街也是“张灯结彩”处。明清时期就是繁华商市，并建有多处会馆公所。阊门内外、南北濠、上下塘、山塘、枫桥，都是繁盛的商业区，“凡南北舟车，外洋商贩，莫不毕集于此，居民稠密，街弄通隘，客货一到，行人几不能掉臂，其各商大贾，自为居停。”（清人纳兰常安《宦游笔记》）南濠街毁于咸丰十年。同治、光绪年间商市略有恢复。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/6/%E5%8D%97%E6%B5%A9%E8%A1%97.jpg',
+        coverImg: oss+'/content/6/1.jpg',
         des1: '',
         imgs: [],
         des2: [
@@ -93,9 +94,9 @@ const data={
     '7': {
         title: '/images/qbm_tit.png',
         des: '&emsp;&emsp;泰伯庙位于阊门内下塘街252号，为纪念古公父（周太王）长子泰伯而建，历史可追溯至东汉，为江南地区第一座奉祀吴地开发始祖泰伯的庙宇。现尚存的至德桥、至德坊、大殿三间、东西两庑各三间等为清代建筑。庙中有康熙、光绪及民国时重修记碑石可考。康熙四十四年康熙南巡时，钦赐给苏州泰伯庙御笔亲书的“至德无名”四字。随后，乾隆在乾隆十六年二月南巡时在苏州泰伯庙御笔亲书“三让高踪”，乾隆历次下江南遣大臣祭苏州泰伯庙。可见苏州泰伯庙之地位。1982年，泰伯庙被列为苏州市文物保护单位。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/7/%E6%B3%B0%E4%BC%AF%E5%BA%991.jpg',
+        coverImg: oss+'/content/7/1.jpg',
         des1: '',
-        imgs: ['https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/7/%E6%B3%B0%E4%BC%AF%E5%BA%992.jpg'],
+        imgs: [oss+'/content/7/2.jpg'],
         des2: [
             {
                 title:'泰伯三让',
@@ -107,16 +108,16 @@ const data={
     '8': {
         title: '/images/tlg_tit.png',
         des: '&emsp;&emsp;铁岭关由城楼、关台等组成，建于明嘉靖三十六年（1557年），又称枫桥敌楼，为苏州“三关”之一(另两处为浒墅关、金阊关，今已毁)，是明代抗倭斗争的重要遗迹。清道光九年（1829年）重修，次年改建上层为文星阁。其后年久失修，阁楼颓毁，雉堞、女墙、射孔等都已倾圮无存。1949年4月27日中国人民解放军29军85、86师击溃了枫桥、铁岭关一线的守敌后，由此进入苏州城，打响了解放苏州的第一枪。1963年铁岭关列为市文物保护单位后，曾维修加固。1986年至1987年大修时加固关台拱门，重砌雉堞，并建单檐歇山顶单层楼阁3间于关台上。关台正面宽15米，纵深10.2米，高7米。正中辟拱门，门洞上刻“铁岭关”三字。关门内南北壁面均辟大小拱门各一，内砌登关砖级，并有驻军洞。关门外即为枫桥和大运河。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/8/%E9%93%81%E9%93%83%E5%85%B31.jpg',
+        coverImg: oss+'/content/8/1.jpg',
         des1: '&emsp;&emsp;作为爱国主义教育基地，铁岭关一直是苏州城西北高悬的红色旗帜，但是新的时代，必然要赋予铁岭关新的使命，倡导党员干部要践行敢攻坚、敢争先、敢担当的铁岭关“三敢”精神，不畏艰险、敢为人先、勇挑重担。',
-        imgs: ['https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/8/%E9%93%81%E9%93%83%E5%85%B32.jpg'],
+        imgs: [oss+'/content/8/2.jpg'],
         des2: []
     },
     // 文山寺
     '9': {
         title: '/images/wss_tit.png',
         des: '&emsp;&emsp;苏州文山寺位于姑苏城西北的文丞相弄内，是苏州市唯一一座尼众道场（俗称尼姑庵）。它背枕桃花坞，面临中街路，现占地面积2206.19平方米，建筑面积2889.69平方米。\n &emsp;&emsp;苏州方志载：“文山寺，在阊门下塘文丞相弄。明正德十年（1515年）为纪念文天祥建忠烈祠，俗称文文山祠或文丞相祠。嘉靖二十年（1541年）迁祠于旧学前，此处遂改为文山寺。清同治十一年（1872年）重修。后与潮音庵、云林庵合并，改建文山潮音禅寺。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/9/%E6%96%87%E5%B1%B1%E5%AF%BA.jpg',
+        coverImg: oss+'/content/9/1.jpg',
         des1: '&emsp;&emsp;南宋德祐元年（1275年）十月，元兵南侵，宋恭宗急命时任兵部尚书的文天祥改任浙西、江西制置史兼平江知府，在苏州组织抗元事宜。文天祥在苏州，将家属安置在潮音庵内。40天后，文天祥又奉命移守临安，文天祥离开苏州3天后，苏州就落入元军手中。后来，文天祥奉命出使与元军谈判，为元军扣押北上，途经镇江时，文天祥趁机逃脱南下，又路过苏州，见到苏州军民百感交集，写下了“楼台俯舟楫，城郭满干戈，故吏归心少，遗民出涕多。鸠居无鹊在，鱼网有鸿过，使遂睢队志，安危今若何”。',
         imgs: [],
         des2: [
@@ -130,9 +131,9 @@ const data={
     '10': {
         title: '/images/ty_tit.png',
         des: '&emsp;&emsp;唐寅历史文化片区位于古城区西北部，平门内西大营门双荷花池13号，内有唐寅故居遗址（宝华庵，又称文昌阁），1982年被列为苏州市文物保护单位。清代初年，桃花庵尚存部分建筑。顺治间，名医沈明生徙苏得此宅，构亭台，植竹木，池沼叫长宁池，内植荷花，岸夹芙蓉，并跨塘建一亭，取名“蓉镜亭”。当时莫俨高曾写有《送明生先生迁六如别业》一诗：“六如泼墨狂歌处，桃树无多潭水秋；之子移家当胜地，一楼八咏继风流。”到了乾隆年间，有僧禅林、道心，又就其地改建为宝华庵，古庵至今犹存。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/10/%E5%94%90%E5%AF%85%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E7%89%87%E5%8C%BA1.jpg',
+        coverImg: oss+'/content/10/1.jpg',
         des1: '',
-        imgs: ['https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/10/%E5%94%90%E5%AF%85%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E7%89%87%E5%8C%BA2.jpg', 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/10/%E5%94%90%E5%AF%85%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E7%89%87%E5%8C%BA3.jpg','https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/10/%E5%94%90%E5%AF%85%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E7%89%87%E5%8C%BA4.jpg'],
+        imgs: [oss+'/content/10/2.jpg', oss+'/content/10/3.jpg',oss+'/content/10/4.jpg'],
         des2: [
             {
                 title:'唐寅与《悟阳子养性图》',
@@ -144,7 +145,7 @@ const data={
     '11': {
         title: '/images/xzs_tit.png',
         des: '&emsp;&emsp;早在元末明初，苏州古城中心商市（今乐桥附近）因兵燹衰落，城周边商市由此兴起。因大运河自西向东流经苏州，水道汇合古阊门、胥门外，致使阊胥一带形成南来北往交通枢纽，唐寅在《阊门即事》中写道：“世间乐土是吴中，中有阊门更擅雄。翠袖三千楼上下，黄金百万水西东。五更市卖何曾绝，四远方言总不同。若使画师描作画，画师应道画难工。”如今相当部分沿街民居至今保留着民国时期的建筑风格。阊门内由此形成西中市、东中市的商业街，取代了原市中心即今乐桥附近的东市、西市。西中市一带的名胜古迹有阊门古城墙、水陆城门，古城楼、泰伯庙、皋桥、雷允上药店老址、苏州府电报局遗址等等。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/11/%E8%A5%BF%E4%B8%AD%E5%B8%82.jpg',
+        coverImg: oss+'/content/11/1.jpg',
         des1: '&emsp;&emsp;现在的西中市早已不能算是商业中心。她是不施粉黛的古典美人，尽管沧桑写满了整张脸，但细节处处透着遗存的风韵，她从历史中走来，熬过了战火和子弹，又把自己埋进繁华之都的深处。一个城市的发展离不开革新，但市井文化是暗藏在泥土里的根。就像香港的庙街，尽管周围高楼林立，霓虹璀璨，但这里始终保留着一份认同感和归属感。西中市的美不是摇下车玻璃就能欣赏的，她需要你站上皋桥头，登过阊门楼，走进泰伯庙。',
         imgs: [],
         des2: []
@@ -153,9 +154,9 @@ const data={
     '12': {
         title: '/images/yp_tit.png',
         des: '&emsp;&emsp;艺圃是苏州现存明式小园林的代表，位于苏州阊门内天库前文衙弄，始建于明嘉靖二十年（1541年）。艺圃是经过几代人的营建，才成为著名园林的，它有别于其它苏州园林的一大特点，就是其园主都是讲气节、有学问的名人。2006年05月25日，艺圃作为明代古建筑，被国务院批准列入第六批全国重点文物保护单位名单，已被联合国教科文组织列入世界文化遗产。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/12/%E8%89%BA%E5%9C%831.JPG',
+        coverImg: oss+'/content/12/1.JPG',
         des1: '',
-        imgs: ['https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/12/%E8%89%BA%E5%9C%832.JPG'],
+        imgs: [oss+'/content/12/2.JPG'],
         des2: [
             {
                 title:'',
@@ -167,7 +168,7 @@ const data={
     '13': {
         title: '/images/zyd_tit.png',
         des: '&emsp;&emsp;1979年，经市人民政府决定，在阊门石路东侧这块约六亩多的鲇鱼形废墟上建成街心公园。后原金阊区政府在该处投资，重新建设成“石路文化公园”。园中主景为石路百年文化墙。以一幅当初石路地图，表现其间石路的概貌，示意石路的街巷、道路、店铺、民居等。十二幅《石路变迁图》组图，通过纵横结合的方式和脉络，表现各个历史时期石路的面貌、重大事件、著名人物等。十二幅组图分别以前世沧桑、商业雏形、洋务开埠、筑石铺路、地杰人灵、街巷纵横、商贾云集、外侵劫难、平民乐园、百年复兴、丁未火灾、盛世繁华为题，上图下文，表现主题。并有一篇《石路赋》，以传统辞赋形式，对仗工整，气势宏大，文字精练，言简意赅。突出石路的前世今生、历史变迁、岁月沧桑、文化底蕴、富贵风流、盛世繁华。并表达政府对改造石路、提档升级、造福于民的良苦用心。最后以书法题写刻石。此外在文化公园内，还置有当年石路标志性的钟楼，支持开埠、开创石路的盛宣怀雕像等。',
-        coverImg: 'https://szjcxcx.oss-cn-hangzhou.aliyuncs.com/content/13/%E5%8D%A0%E9%B1%BC%E5%A2%A9.jpg',
+        coverImg: oss+'/content/13/1.jpg',
         des1: '',
         imgs: [],
         des2: []
